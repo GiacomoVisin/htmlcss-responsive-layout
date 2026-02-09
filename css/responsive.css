@@ -1,3 +1,44 @@
 /* Soluzione qui */
 
 
+/* Tablet Layout */
+
+@media screen and (min-width: 768px){
+    #topbar{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .container{
+        padding: 50px;
+    }
+
+    .recipe-origin{
+        display:inline;
+    }
+
+    .recipe-name{
+        font-size: 2rem;
+    }
+
+    ul{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .btn{
+        width: 130px;
+    }
+
+    .ads{
+        display:block;
+    }
+
+    .clearfix img{
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+
