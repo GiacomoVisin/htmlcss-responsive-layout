@@ -41,4 +41,55 @@
     }
 }
 
+/* Tablet Layout */
+
+
+/* Desktop layout */
+
+@media screen and (min-width:992px){
+    .recipe-name{
+        font-size: 2.5rem;
+    }
+
+    ul{
+        display:inline;
+    }
+
+    .recipe-card{
+        display:flex
+    }
+
+    .recipe-video{
+        flex:2;
+        height: 34vw;
+    }
+
+    .btn{
+
+    .label{
+        display:inline;
+    }
+}
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    address{
+        text-align:left;
+}
+}
+
+
+
+
+
+
+
+
+
+/* Desktop layout */
+
 
