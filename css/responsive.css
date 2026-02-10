@@ -86,3 +86,17 @@
 /* Desktop layout */
 
 
+
+/* Large Mobile Layout */
+
+@media screen and (min-width:576px){
+    .clearfix img {
+        float: left;
+        margin-right: 20px;
+    }
+    .btn {
+        width: 100px;
+    }
+}
+
+/* Large Mobile Layout */
